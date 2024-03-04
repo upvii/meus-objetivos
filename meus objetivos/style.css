@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Luckiest+Guy&family=Shadows+Into+Light&display=swap');
+
+
+:root{
+    --cor-de-fundo:#b87dee;
+    --texto1:#61e25d;
+    --texto2:#61e25d;
+    --botao-ativo:#370064;
+    --botao-inativo: rgb(126, 85, 163);
+    --botao-fundo: rgb(255, 255, 255);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--texto1);
+    font-family: "Amatic SC" ;
+}
