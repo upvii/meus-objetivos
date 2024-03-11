@@ -15,3 +15,30 @@ body{
     color: var(--texto1);
     font-family: "Amatic SC" ;
 }
+
+.conteudo-principal{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     max-width: 100%;
+     margin:-5% auto;
+}
+
+.titulo-principal{
+     text-align: center;
+     width: 100%;
+     font-size: 36px;
+}
+
+.botao{
+     font-family: "Amatic SC", sans-serif;
+     background-color: var(--botao-inativo);
+     display: flex;
+     color: var(--texto1);
+     justify-content: center;
+     padding: 6px;
+     font-size: 20px;
+     align-items: center;
+     width: 120%;
+}
