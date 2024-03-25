@@ -5,7 +5,7 @@
     --cor-de-fundo:#b87dee;
     --texto1:#61e25d;
     --texto2:#61e25d;
-    --botao-ativo:#370064;
+    --botao-ativo:#6a3b91;
     --botao-inativo: rgb(126, 85, 163);
     --botao-fundo: rgb(255, 255, 255);
 }
@@ -22,7 +22,7 @@ body{
      justify-content: center;
      align-items: center;
      max-width: 100%;
-     margin:-5% auto;
+     margin:0 auto;
 }
 
 .titulo-principal{
@@ -37,8 +37,25 @@ body{
      display: flex;
      color: var(--texto1);
      justify-content: center;
-     padding: 6px;
-     font-size: 20px;
+     padding: 1em 3em;
+     font-size: 25px;
      align-items: center;
-     width: 120%;
+     width: 110%;
+}
+
+.botoes{
+     display:flex;
+}
+
+.botao:first-child{
+     border-radius: 30px 0 0 0;
+}
+
+.botao:last-child{
+     border-radius:0 30px 0 0;
+}
+
+.ativo{
+     background: var(--botao-ativo);
+     border-bottom: 4px solid #61e25d ;
 }
