@@ -7,7 +7,7 @@
     --texto2:#61e25d;
     --botao-ativo:#6a3b91;
     --botao-inativo: rgb(126, 85, 163);
-    --botao-fundo: rgb(255, 255, 255);
+    --texto-fundo:#6a3b91 ;
 }
 
 body{
@@ -58,4 +58,10 @@ body{
 .ativo{
      background: var(--botao-ativo);
      border-bottom: 4px solid #61e25d ;
+}
+
+.aba-textos{
+     background-color: var(--texto-fundo);
+     padding: 80px;
+     border-radius: 0 0 30px 30px;
 }
