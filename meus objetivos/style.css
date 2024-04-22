@@ -55,7 +55,7 @@ body{
      border-radius:0 30px 0 0;
 }
 
-.ativo{
+.botao.ativo{
      background: var(--botao-ativo);
      border-bottom: 4px solid #61e25d ;
 }
@@ -65,3 +65,24 @@ body{
      padding: 80px;
      border-radius: 0 0 30px 30px;
 }
+
+.aba-conteudo.ativo{
+     display: block;
+}
+
+.aba-conteudo{
+     display: none;
+}
+
+.aba-conteudo-titulo-principal{
+     font-size: 40px;
+     text-align: center;
+}
+
+.aba-conteudo-titulo-secundario{
+     color: var(--texto1);
+     text-transform: uppercase;
+     text-align: center;
+     font-size: 30px;
+}
+
