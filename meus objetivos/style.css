@@ -75,7 +75,7 @@ body{
 }
 
 .aba-conteudo-titulo-principal{
-     font-size: 40px;
+     font-size: 60px;
      text-align: center;
 }
 
@@ -83,6 +83,11 @@ body{
      color: var(--texto1);
      text-transform: uppercase;
      text-align: center;
-     font-size: 30px;
+     font-size: 40px;
 }
 
+.contador{
+     font-size: 50px ;
+     text-align: center;
+     padding: 1em;
+}
