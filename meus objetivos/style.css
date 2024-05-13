@@ -62,7 +62,7 @@ body{
 
 .aba-textos{
      background-color: var(--texto-fundo);
-     padding: 80px;
+     padding: 90px;
      border-radius: 0 0 30px 30px;
 }
 
@@ -90,4 +90,6 @@ body{
      font-size: 50px ;
      text-align: center;
      padding: 1em;
+     text-transform: uppercase;
+
 }
